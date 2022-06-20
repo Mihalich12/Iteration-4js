@@ -1,0 +1,200 @@
+#header{
+    font-family: 'Barlow Condensed';
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 26px;
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.container{
+    padding-top: 60px;
+}
+#Login{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Password{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; 
+}
+#PassInp{
+    border: 1px;
+    border-radius: 10px;
+    height: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6)
+}
+.LogInp{
+    border: 1px;
+    border-radius: 10px;
+    height: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);    
+}
+.LogInp[type=text]{
+    padding-left: 10px;
+}
+.PassInp[type=text]{
+    padding-left: 10px;
+}
+body{
+    background: url("./background.jpg")
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    padding: 8px 30px;
+    width: 100px;
+    border: 3px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+#btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+.buton{
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#log{
+    border: 1px;
+    border-radius: 10px;
+    height: 150px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+.area{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.butinp{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    margin-top: 10px;
+    margin-left: -50px;
+}
+.calc{
+    padding-top: 100px;
+    font-family: 'Barlow Condensed';
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+}
+#num1{
+    width: 110px;
+}
+#num2{
+    width: 110px;
+}
+#res{
+    width: 115px;
+}
+.Separation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#operator_btns{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#plus{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;     
+}
+#plus:hover{
+    background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+    box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+#plus:active{
+    background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;  
+}
+#minus{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;     
+}
+#minus:hover{
+    background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+    box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+#minus:active{
+    background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;  
+}
+#division{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;     
+}
+#division:hover{
+    background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+    box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+#division:active{
+    background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;  
+}
+#multiplication{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;     
+}
+#multiplication:hover{
+    background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+    box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+#multiplication:active{
+    background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;  
+}

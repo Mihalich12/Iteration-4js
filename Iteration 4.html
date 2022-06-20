@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Dancing+Script:wght@400;500&display=swap"
+    rel="stylesheet">
+  <title>Mihalich</title>
+</head>
+
+<body>
+
+  <header id="header">Hello, can you autorization</header>
+<div class="Separation">
+  <div class="container">
+    <div id="Login">
+      <input type="text" placeholder="Login" class="LogInp"></input>
+    </div>
+    <div class="Password">
+      <input type="text" placeholder="Password" class="PassInp"></input>
+      <style>
+        .focused {
+          outline: 100px solid red;
+        }
+      </style>
+    </div>
+    <div class="buton">
+      <div>
+      <button type="submit" id="btn">Enter</button>
+      <script>
+      document.querySelector("btn").onclick = function(){
+        alert("Вы нажали на кнопку");
+      }
+    </script>
+    </div>
+      <div class="input">
+        <input type="checkbox" id="one" onchange="fun1()"> Взаимодействие с кнопкой
+      </div>
+    </div>
+  </div>
+  <div class="area">
+    <textarea id="log"></textarea>
+  </div>
+  <!--Calculator-->
+    <div class="calc">
+     <div>Calculator</div>
+     <p id="result"></p>
+     <input id="num1" />
+      <div id="operator_btns">
+       <button id="plus" onclick="op='+'">+</button>
+       <button id="minus" onclick="op='-'">-</button>
+       <button id="multiplication" onclick="op='*'">x</button>
+       <button id="division" onclick="op='/'">:</button>
+      </div>
+     <input id="num2" />
+	   <br>
+     <button id="res" onclick="func()">Посчитать</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
